@@ -8,7 +8,7 @@ lista_POS_funzionali = ["CC", "DT", "CD", "IN", "TO", "RP", "MD", "PRP", "PRP$",
 
 def main(file1, file2):
     #apro i file e assegno il loro contenuto ad una variabile
-    fileInput1 = open(file1, "r", encoding="utf-8") #encing necessario su windows
+    fileInput1 = open(file1, "r", encoding="utf-8") #encoding necessario su windows
     fileInput2 = open(file2, "r", encoding="utf-8")
     raw1 = fileInput1.read()
     raw2 = fileInput2.read()
