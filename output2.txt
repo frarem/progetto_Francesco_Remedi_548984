@@ -1,0 +1,352 @@
+Dati estratti dal corpus GIORNALISTICO:
+
+1 ° POS è:  NN   con frequenza: 1263
+2 ° POS è:  IN   con frequenza: 1087
+3 ° POS è:  NNP   con frequenza: 825
+4 ° POS è:  DT   con frequenza: 786
+5 ° POS è:  NNS   con frequenza: 680
+6 ° POS è:  JJ   con frequenza: 664
+7 ° POS è:  ,   con frequenza: 469
+8 ° POS è:  VBD   con frequenza: 392
+9 ° POS è:  .   con frequenza: 364
+10 ° POS è:  VB   con frequenza: 319
+
+1 ° bigramma di POS è:  ('DT', 'NN')   con frequenza: 359
+2 ° bigramma di POS è:  ('NN', 'IN')   con frequenza: 352
+3 ° bigramma di POS è:  ('IN', 'DT')   con frequenza: 317
+4 ° bigramma di POS è:  ('JJ', 'NN')   con frequenza: 255
+5 ° bigramma di POS è:  ('NNP', 'NNP')   con frequenza: 230
+6 ° bigramma di POS è:  ('JJ', 'NNS')   con frequenza: 199
+7 ° bigramma di POS è:  ('IN', 'NNP')   con frequenza: 186
+8 ° bigramma di POS è:  ('DT', 'JJ')   con frequenza: 183
+9 ° bigramma di POS è:  ('NNS', 'IN')   con frequenza: 154
+10 ° bigramma di POS è:  ('TO', 'VB')   con frequenza: 149
+
+1 ° trigramma di POS è:  ('IN', 'DT', 'NN')   con frequenza: 139
+2 ° trigramma di POS è:  ('DT', 'JJ', 'NN')   con frequenza: 120
+3 ° trigramma di POS è:  ('DT', 'NN', 'IN')   con frequenza: 110
+4 ° trigramma di POS è:  ('NN', 'IN', 'DT')   con frequenza: 104
+5 ° trigramma di POS è:  ('JJ', 'NN', 'IN')   con frequenza: 82
+6 ° trigramma di POS è:  ('IN', 'DT', 'JJ')   con frequenza: 71
+7 ° trigramma di POS è:  ('NN', 'IN', 'NNP')   con frequenza: 68
+8 ° trigramma di POS è:  ('NNP', 'NNP', 'NNP')   con frequenza: 59
+9 ° trigramma di POS è:  ('IN', 'NNP', 'NNP')   con frequenza: 54
+10 ° trigramma di POS è:  ('IN', 'DT', 'NNP')   con frequenza: 53
+
+Lista dei primi 20 aggettivi più frequenti
+new 	con frequenza:	 19
+more 	con frequenza:	 17
+unaccompanied 	con frequenza:	 16
+other 	con frequenza:	 14
+last 	con frequenza:	 11
+migrant 	con frequenza:	 11
+“ 	con frequenza:	 9
+public 	con frequenza:	 9
+senior 	con frequenza:	 8
+past 	con frequenza:	 8
+few 	con frequenza:	 7
+many 	con frequenza:	 7
+such 	con frequenza:	 7
+fiscal 	con frequenza:	 7
+s 	con frequenza:	 6
+own 	con frequenza:	 6
+next 	con frequenza:	 6
+legal 	con frequenza:	 5
+first 	con frequenza:	 5
+young 	con frequenza:	 5
+
+Lista dei primi 20 avverbi più frequenti
+not 	con frequenza:	 36
+also 	con frequenza:	 22
+just 	con frequenza:	 10
+only 	con frequenza:	 8
+already 	con frequenza:	 8
+very 	con frequenza:	 7
+more 	con frequenza:	 7
+again 	con frequenza:	 6
+quickly 	con frequenza:	 6
+so 	con frequenza:	 5
+still 	con frequenza:	 5
+as 	con frequenza:	 5
+nearly 	con frequenza:	 4
+ahead 	con frequenza:	 4
+then 	con frequenza:	 4
+never 	con frequenza:	 4
+most 	con frequenza:	 4
+recently 	con frequenza:	 4
+down 	con frequenza:	 4
+no 	con frequenza:	 3
+
+
+Dati estratti dal corpus LETTERARIO:
+
+1 ° POS è:  NN   con frequenza: 1324
+2 ° POS è:  IN   con frequenza: 936
+3 ° POS è:  DT   con frequenza: 826
+4 ° POS è:  PRP   con frequenza: 744
+5 ° POS è:  VBD   con frequenza: 669
+6 ° POS è:  ,   con frequenza: 582
+7 ° POS è:  JJ   con frequenza: 569
+8 ° POS è:  RB   con frequenza: 453
+9 ° POS è:  NNP   con frequenza: 425
+10 ° POS è:  CC   con frequenza: 406
+
+1 ° bigramma di POS è:  ('DT', 'NN')   con frequenza: 452
+2 ° bigramma di POS è:  ('IN', 'DT')   con frequenza: 327
+3 ° bigramma di POS è:  ('NN', 'IN')   con frequenza: 277
+4 ° bigramma di POS è:  ('PRP', 'VBD')   con frequenza: 273
+5 ° bigramma di POS è:  ('JJ', 'NN')   con frequenza: 267
+6 ° bigramma di POS è:  ('NN', ',')   con frequenza: 226
+7 ° bigramma di POS è:  ('DT', 'JJ')   con frequenza: 182
+8 ° bigramma di POS è:  ('IN', 'PRP')   con frequenza: 176
+9 ° bigramma di POS è:  ('NN', '.')   con frequenza: 159
+10 ° bigramma di POS è:  (',', 'CC')   con frequenza: 155
+
+1 ° trigramma di POS è:  ('IN', 'DT', 'NN')   con frequenza: 193
+2 ° trigramma di POS è:  ('DT', 'NN', 'IN')   con frequenza: 127
+3 ° trigramma di POS è:  ('DT', 'JJ', 'NN')   con frequenza: 126
+4 ° trigramma di POS è:  ('NN', 'IN', 'DT')   con frequenza: 106
+5 ° trigramma di POS è:  ('NN', ',', 'CC')   con frequenza: 72
+6 ° trigramma di POS è:  ('IN', 'DT', 'JJ')   con frequenza: 70
+7 ° trigramma di POS è:  ('IN', 'PRP', 'VBD')   con frequenza: 63
+8 ° trigramma di POS è:  ('JJ', 'NN', ',')   con frequenza: 58
+9 ° trigramma di POS è:  ('VBD', 'DT', 'NN')   con frequenza: 55
+10 ° trigramma di POS è:  ('DT', 'NN', ',')   con frequenza: 54
+
+Lista dei primi 20 aggettivi più frequenti
+white 	con frequenza:	 14
+’ 	con frequenza:	 12
+s 	con frequenza:	 12
+more 	con frequenza:	 12
+own 	con frequenza:	 12
+other 	con frequenza:	 10
+last 	con frequenza:	 10
+little 	con frequenza:	 9
+much 	con frequenza:	 9
+such 	con frequenza:	 9
+” 	con frequenza:	 8
+great 	con frequenza:	 8
+dead 	con frequenza:	 8
+dark 	con frequenza:	 7
+less 	con frequenza:	 6
+“ 	con frequenza:	 6
+strange 	con frequenza:	 6
+Un-Dead 	con frequenza:	 6
+sweet 	con frequenza:	 6
+silent 	con frequenza:	 5
+
+Lista dei primi 20 avverbi più frequenti
+not 	con frequenza:	 56
+so 	con frequenza:	 32
+then 	con frequenza:	 25
+now 	con frequenza:	 17
+never 	con frequenza:	 16
+still 	con frequenza:	 12
+here 	con frequenza:	 11
+again 	con frequenza:	 11
+only 	con frequenza:	 9
+yet 	con frequenza:	 9
+ever 	con frequenza:	 9
+always 	con frequenza:	 8
+very 	con frequenza:	 8
+away 	con frequenza:	 8
+back 	con frequenza:	 8
+there 	con frequenza:	 8
+Then 	con frequenza:	 8
+well 	con frequenza:	 7
+far 	con frequenza:	 6
+too 	con frequenza:	 6
+
+
+PER IL CORPUS GIORNALISTICO:
+20 bigrammi composti da Aggettivo e Sostantivo dove ogni token ha una frequenza maggiore di 3 ordinati per frequenza:
+bigramma:	 unaccompanied minors 	frequenza:  9
+bigramma:	 migrant children 	frequenza:  8
+bigramma:	 fiscal year 	frequenza:  6
+bigramma:	 unaccompanied children 	frequenza:  6
+bigramma:	 last year 	frequenza:  5
+bigramma:	 legal advice 	frequenza:  3
+bigramma:	 last month 	frequenza:  3
+bigramma:	 young people 	frequenza:  3
+bigramma:	 acquired gender 	frequenza:  2
+bigramma:	 new variant 	frequenza:  2
+bigramma:	 new cases 	frequenza:  2
+bigramma:	 new restrictions 	frequenza:  2
+bigramma:	 public areas 	frequenza:  2
+bigramma:	 next year 	frequenza:  2
+bigramma:	 past week 	frequenza:  2
+bigramma:	 high risk 	frequenza:  2
+bigramma:	 severe disease 	frequenza:  2
+bigramma:	 infected people 	frequenza:  2
+bigramma:	 few days 	frequenza:  2
+bigramma:	 several hours 	frequenza:  1
+
+20 bigrammi composti da Aggettivo e Sostantivo e dove ogni token ha una frequenza maggiore di 3 ordinati per probabilità condizionata massima:
+bigramma:	 fiscal year 	probabilità Condizionata:  0.8571428571428571
+bigramma:	 migrant children 	probabilità Condizionata:  0.6153846153846154
+bigramma:	 legal advice 	probabilità Condizionata:  0.6
+bigramma:	 young people 	probabilità Condizionata:  0.6
+bigramma:	 unaccompanied minors 	probabilità Condizionata:  0.5625
+bigramma:	 high risk 	probabilità Condizionata:  0.5
+bigramma:	 infected people 	probabilità Condizionata:  0.5
+bigramma:	 last year 	probabilità Condizionata:  0.45454545454545453
+bigramma:	 acquired gender 	probabilità Condizionata:  0.4
+bigramma:	 severe disease 	probabilità Condizionata:  0.4
+bigramma:	 unaccompanied children 	probabilità Condizionata:  0.375
+bigramma:	 next year 	probabilità Condizionata:  0.2857142857142857
+bigramma:	 few days 	probabilità Condizionata:  0.2857142857142857
+bigramma:	 last month 	probabilità Condizionata:  0.2727272727272727
+bigramma:	 past week 	probabilità Condizionata:  0.25
+bigramma:	 several hours 	probabilità Condizionata:  0.25
+bigramma:	 Chinese government 	probabilità Condizionata:  0.25
+bigramma:	 traditional family 	probabilità Condizionata:  0.25
+bigramma:	 professional use 	probabilità Condizionata:  0.25
+bigramma:	 mandatory use 	probabilità Condizionata:  0.25
+
+20 bigrammi composti da Aggettivo e Sostantivo e dove ogni token ha una frequenza maggiore di 3 ordinati per Local Mutual Information:
+bigramma:	 unaccompanied minors 	Local Mutual Information:  79.28339139085091
+bigramma:	 migrant children 	Local Mutual Information:  61.327059968837794
+bigramma:	 fiscal year 	Local Mutual Information:  49.16733519587602
+bigramma:	 unaccompanied children 	Local Mutual Information:  41.70770828980183
+bigramma:	 last year 	Local Mutual Information:  36.39722381782925
+bigramma:	 legal advice 	Local Mutual Information:  31.46201284562155
+bigramma:	 last month 	Local Mutual Information:  28.049502274371747
+bigramma:	 young people 	Local Mutual Information:  22.462012845621548
+bigramma:	 high risk 	Local Mutual Information:  19.80475022897205
+bigramma:	 severe disease 	Local Mutual Information:  19.80475022897205
+bigramma:	 public areas 	Local Mutual Information:  17.464900226087426
+bigramma:	 acquired gender 	Local Mutual Information:  16.885886991697458
+bigramma:	 past week 	Local Mutual Information:  16.448606418746778
+bigramma:	 few days 	Local Mutual Information:  16.190040384856843
+bigramma:	 new restrictions 	Local Mutual Information:  15.30889520208488
+bigramma:	 infected people 	Local Mutual Information:  14.448606418746776
+bigramma:	 new cases 	Local Mutual Information:  13.612901388974981
+bigramma:	 next year 	Local Mutual Information:  13.219186730516359
+bigramma:	 new variant 	Local Mutual Information:  13.033888154585009
+bigramma:	 several hours 	Local Mutual Information:  9.224303209373389
+
+
+PER IL CORPUS LETTERARIO:
+20 bigrammi composti da Aggettivo e Sostantivo dove ogni token ha una frequenza maggiore di 3 ordinati per frequenza:
+bigramma:	 ’ t 	frequenza:  8
+bigramma:	 s hand 	frequenza:  4
+bigramma:	 ” “ 	frequenza:  3
+bigramma:	 white figure 	frequenza:  3
+bigramma:	 other things 	frequenza:  2
+bigramma:	 own heart 	frequenza:  2
+bigramma:	 s eyes 	frequenza:  2
+bigramma:	 to-morrow night 	frequenza:  2
+bigramma:	 terrible task 	frequenza:  2
+bigramma:	 little thing 	frequenza:  1
+bigramma:	 bitter Miss 	frequenza:  1
+bigramma:	 little figure 	frequenza:  1
+bigramma:	 white face 	frequenza:  1
+bigramma:	 such vault 	frequenza:  1
+bigramma:	 own children 	frequenza:  1
+bigramma:	 strange child 	frequenza:  1
+bigramma:	 white bed 	frequenza:  1
+bigramma:	 “ Miss 	frequenza:  1
+bigramma:	 great pain 	frequenza:  1
+bigramma:	 only answer 	frequenza:  1
+
+20 bigrammi composti da Aggettivo e Sostantivo e dove ogni token ha una frequenza maggiore di 3 ordinati per probabilità condizionata massima:
+bigramma:	 to-morrow night 	probabilità Condizionata:  0.5
+bigramma:	 terrible task 	probabilità Condizionata:  0.5
+bigramma:	 bitter Miss 	probabilità Condizionata:  0.25
+bigramma:	 fresh air 	probabilità Condizionata:  0.25
+bigramma:	 fresh blood 	probabilità Condizionata:  0.25
+bigramma:	 sacred closing 	probabilità Condizionata:  0.25
+bigramma:	 till to-morrow 	probabilità Condizionata:  0.25
+bigramma:	 true friend 	probabilità Condizionata:  0.25
+bigramma:	 broken heart 	probabilità Condizionata:  0.25
+bigramma:	 true friends 	probabilità Condizionata:  0.25
+bigramma:	 red lips 	probabilità Condizionata:  0.25
+bigramma:	 white figure 	probabilità Condizionata:  0.21428571428571427
+bigramma:	 other things 	probabilità Condizionata:  0.2
+bigramma:	 high duty 	probabilità Condizionata:  0.2
+bigramma:	 own heart 	probabilità Condizionata:  0.16666666666666666
+bigramma:	 sweet purity 	probabilità Condizionata:  0.16666666666666666
+bigramma:	 left hand 	probabilità Condizionata:  0.16666666666666666
+bigramma:	 don ’ 	probabilità Condizionata:  0.16666666666666666
+bigramma:	 strange child 	probabilità Condizionata:  0.14285714285714285
+bigramma:	 strange light 	probabilità Condizionata:  0.14285714285714285
+
+20 bigrammi composti da Aggettivo e Sostantivo e dove ogni token ha una frequenza maggiore di 3 ordinati per Local Mutual Information:
+bigramma:	 ’ t 	Local Mutual Information:  46.7861675898623
+bigramma:	 white figure 	Local Mutual Information:  25.208579401231276
+bigramma:	 s hand 	Local Mutual Information:  21.94280347739232
+bigramma:	 terrible task 	Local Mutual Information:  19.776573255161335
+bigramma:	 to-morrow night 	Local Mutual Information:  17.019550008653876
+bigramma:	 other things 	Local Mutual Information:  16.606648253719023
+bigramma:	 own heart 	Local Mutual Information:  13.84962500721156
+bigramma:	 s eyes 	Local Mutual Information:  10.392388504306188
+bigramma:	 sacred closing 	Local Mutual Information:  9.210214722468029
+bigramma:	 till to-morrow 	Local Mutual Information:  9.210214722468029
+bigramma:	 true friends 	Local Mutual Information:  9.210214722468029
+bigramma:	 fresh air 	Local Mutual Information:  8.888286627580667
+bigramma:	 high duty 	Local Mutual Information:  8.888286627580667
+bigramma:	 sweet purity 	Local Mutual Information:  8.625252221746873
+bigramma:	 red lips 	Local Mutual Information:  8.625252221746873
+bigramma:	 fresh blood 	Local Mutual Information:  8.402859800410425
+bigramma:	 great pain 	Local Mutual Information:  8.210214722468029
+bigramma:	 long task 	Local Mutual Information:  8.080931705523064
+bigramma:	 little cry 	Local Mutual Information:  8.040289721025717
+bigramma:	 true friend 	Local Mutual Information:  8.040289721025717
+
+
+PER IL CORPUS GIORNALISTICO:
+La frase con media di distribuzione più alta è:  “This is not about the national security law 
+con media di:  19.34090909090909
+La frase con media di distribuzione più bassa è:  The challenge will be to get Paxlovid to the people who need it 
+con media di:  5.634920634920635
+La frase con probabilità Markov di ordine 2 maggiore è:  Mortgage rates did not help buyers much either 
+con valore di probabilità 3.118633048910222e-26
+
+PER IL CORPUS LETTERARIO:
+La frase con media di distribuzione più alta è:  That’s the way she always talks 
+con media di:  40.935483870967744
+La frase con media di distribuzione più bassa è:  And so it is we find this coffin empty 
+con media di:  5.2368421052631575
+La frase con probabilità Markov di ordine 2 maggiore è:  Come and we can rest together 
+con valore di probabilità 8.617029929136052e-20
+
+
+
+PER IL CORPUS GIORNALISTICO:
+nomi propri di persona in ordine di frequenza
+
+nome proprio:	  Tyreek 		frequenza:  9
+nome proprio:	  Franco 		frequenza:  6
+nome proprio:	  Paxlovid 		frequenza:  5
+nome proprio:	  Diane Witt 		frequenza:  4
+nome proprio:	  Farris 		frequenza:  4
+nome proprio:	  Covid 		frequenza:  3
+nome proprio:	  Griffin 		frequenza:  3
+nome proprio:	  Team Rubicon 		frequenza:  3
+nome proprio:	  Byard 		frequenza:  3
+nome proprio:	  Sales 		frequenza:  3
+nome proprio:	  Hong Kong 		frequenza:  2
+nome proprio:	  Omicron 		frequenza:  2
+nome proprio:	  Welch 		frequenza:  2
+nome proprio:	  Zients 		frequenza:  2
+nome proprio:	  Pfizer 		frequenza:  2
+
+
+PER IL CORPUS LETTERARIO:
+nomi propri di persona in ordine di frequenza
+
+nome proprio:	  Arthur 		frequenza:  23
+nome proprio:	  Van Helsing 		frequenza:  21
+nome proprio:	  Bessie 		frequenza:  13
+nome proprio:	  Lucy 		frequenza:  10
+nome proprio:	  Jim 		frequenza:  9
+nome proprio:	  Quincey 		frequenza:  7
+nome proprio:	  Miss Abbot 		frequenza:  6
+nome proprio:	  Abbot 		frequenza:  6
+nome proprio:	  Tom 		frequenza:  5
+nome proprio:	  Mr. Reed 		frequenza:  4
+nome proprio:	  John 		frequenza:  4
+nome proprio:	  God 		frequenza:  4
+nome proprio:	  Mars Tom 		frequenza:  4
+nome proprio:	  Missis 		frequenza:  3
+nome proprio:	  Miss Eyre 		frequenza:  2

@@ -1,0 +1,61 @@
+lunghezza del corpus giornalistico:  9570 numero di frasi:  363
+lunghezza del corpus letterario:  9477 numero di frasi:  342
+
+la media delle frasi in termini di token del corpus giornalistico è:  23.457300275482094 e la rispettiva media in caratteri dei token è:  4.858954785672343
+la media delle frasi in termini di token del corpus letterario è:  24.327485380116958 e la rispettiva media in caratteri dei token è:  4.0587740384615385
+
+Hapax estratti dai primi 1000 token del testo giornalistico: 
+['1989', '1997', '2020', '25', '26', '26ft', '50', '8-metre-tall', 'According', 'Before', 'Brink', 'Britain', 'Brown', 'California', 'Catalan', 'Communist', 'Covid', 'Danish', 'Earlier', 'Europe', 'For', 'Guardian', 'If', 'Irvine', 'Jeffrey', 'Jens', 'Karry', 'Loud', 'Mayer', 'Multinational', 'Muslim', 'Must', 'October', 'Old', 'On', 'Other', 'Pillar', 'Security', 'Shame', 'States', 'There', 'Thursday', 'US', 'United', 'Vigil', 'Wang', 'Wasserstrom', 'Xinjiang-related', 'able', 'absurd', 'abuses', 'accordance', 'action', 'activists', 'aged', 'aim', 'all', 'allow', 'ambassador', 'anguished', 'annual', 'another', 'approaching', 'appropriate', 'are', 'area', 'around', 'artist', 'asked', 'assessment', 'author', 'back', 'backlash', 'balance', 'barriers', 'based', 'before', 'being', 'best', 'biggest', 'biting', 'blocked', 'bloody', 'bodies', 'book', 'boycott', 'brand', 'breach', 'breaching', 'but', 'buy', 'camp', 'campuses', 'carried', 'carrying', 'chain', 'chains', 'china', 'chip', 'citizens', 'claims', 'cleaning', 'closed-off', 'collect', 'colonial', 'come', 'commemorate', 'commemorates', 'commemorating', 'comment', 'company', 'compensation', 'comply', 'computer', 'condemned', 'container', 'continue', 'continuing', 'contrasts', 'crane', 'crimes', 'cutting', 'demand', 'democracy', 'denied', 'developments', 'did', 'diminishing', 'disappearing', 'dissent', 'document', 'does', 'dramatically', 'earned', 'email', 'enacted', 'encouraging', 'endure', 'ensure', 'erasure', 'erected', 'everything', 'exceed', 'exile', 'expensive', 'external', 'faces', 'facing', 'features', 'feeds', 'few', 'filming', 'firm', 'fits', 'floor-to-ceiling', 'follow-up', 'forced', 'freedoms', 'gains', 'go', 'goods', 'government', 'governments', 'groups', 'guards', 'half', 'hand', 'handed', 'handle', 'historian', 'history', 'hours', 'human', 'immediately', 'important', 'imposed', 'including', 'increasingly', 'intensified', 'interest', 'interests', 'international', 'into', 'kept', 'late', 'leadership', 'least', 'legislation', 'like', 'll', 'longer', 'losses', 'make', 'maker', 'many', 'marked', 'markets', 'matter', 'me', 'media', 'memorial', 'microblog', 'modern', 'monuments', 'mourning', 'move', 'multinationals', 'multiple', 'name', 'nearly', 'need', 'newspaper', 'noises', 'objects', 'offend', 'officials', 'oldest', 'ones', 'ones.', 'operate', 'ordered', 'ordinance', 'other', 'outlets', 'outweigh', 'pandemic', 'parties', 'party', 'people', 'person', 'pieces', 'piled', 'plastic', 'political', 'posters', 'posting', 'power', 'predominantly', 'prisons', 'pro-democracy', 'process', 'products', 'properly', 'properties', 'property', 'protests', 'provisions', 'public', 'publicly', 'questions', 'radically', 're-education', 'reached', 'recent', 'recurring', 'removing', 'repainting', 'reporters', 'representing', 'request', 'required', 'resist', 'respond', 'response', 'restrictions', 'returned', 'revenues', 'rewriting', 'risk', 'risked', 'run', 'sad', 'saddened', 'sanctions', 'sat', 'saying', 'says', 'sculpture', 'security', 'seen', 'sense', 'sent', 'serve', 'service', 'services', 'several', 'sheets', 'shield', 'shipping', 'shocked', 'shortly', 'should', 'singer', 'staff', 'still', 'stood', 'stop', 'storage', 'stripped', 'students', 'such', 'suppliers', 'supply', 'supporters', 'symbol', 'symbolically', 'tabloid', 'taboo', 'targeting', 'telling', 'territory', 'theme', 'there', 'this.', 'those', 'tools', 'top', 'topic', 'tortured', 'total', 'towards', 'trade', 'tradition', 'tried', 'troops', 'universities', 'university.', 'unlike', 'up', 'use', 'users', 've', 'view', 'waiting', 'walls', 'watchtower', 'we', 'were', 'while', 'wider', 'widespread', 'will', 'winching', 'withdrawing', 'witnesses', 'work', 'workmen', 'year', 'years']
+
+Hapax estratti dai primi 1000 token del testo letterario: 
+['Abigail', 'Am', 'And', 'Besides', 'But', 'Come', 'Don', 'For', 'French', 'Gateshead', 'God', 'Hall', 'He', 'Hold', 'How', 'If', 'In', 'Marseilles', 'Mind', 'Misses', 'No', 'Out', 'Say', 'Scarcely', 'There', 'You', 'Your', 'about', 'accommodation', 'account', 'added', 'additional', 'addressing', 'age', 'agreeable', 'agreed', 'allows', 'already', 'also', 'am', 'ample', 'answered', 'any', 'anything', 'apartment', 'arrested', 'ascertained', 'attached', 'aware', 'away', 'away.', 'because', 'behind', 'benefactress', 'beside', 'blinds', 'blush', 'bonds', 'break', 'brought', 'carpet', 'cat.', 'centre', 'chairs', 'chamber', 'chambers', 'chance', 'child', 'chimney', 'circumstance', 'cloth', 'colour', 'come', 'conduct', 'conscious', 'contained', 'counterpane', 'cover.', 'covered', 'crimson', 'crushing', 'curtains', 'cushioned', 'damask', 'dead', 'deal', 'dependence', 'desperation', 'did', 'directly.', 'disposed', 'divest', 'do', 'door', 'doubtfully', 'drapery', 'drawn', 'ear', 'easy-chair', 'entertain', 'equality', 'ere', 'excitement', 'existence', 'face', 'fact', 'falls', 'fawn', 'felt', 'festoons', 'fetch', 'first', 'folded', 'foot', 'footstool', 'from', 'garters', 'gentleman', 'girl', 'glared', 'good', 'got', 'great', 'greatly', 'guarantee', 'harsh', 'he', 'head', 'heart', 'here', 'high', 'hints', 'hold', 'home', 'humble', 'hung', 'ignominy', 'impulse', 'included', 'incredulous', 'indeed', 'indicated', 'inferred', 'influx', 'instantly', 'intelligible', 'into', 'in—', 'joined', 'keep', 'keeps', 'kind', 'kindly', 'lady', 'large', 'largest', 'last', 'leave', 'leg', 'lend', 'lengths', 'liable', 'ligature', 'locking', 'long', 'looking', 'loosened', 'mad', 'make', 'mansion', 'massive', 'master', 'master.', 'mattresses', 'midst', 'mine', 'moment', 'money', 'much', 'must', 'mutiny', 'near', 'no', 'none', 'obligations', 'often', 'old', 'one', 'only', 'or', 'other', 'over', 'painful', 'pair', 'passionate', 'penalties', 'perhaps', 'permitted', 'piled-up', 'pillars', 'pillows', 'pink', 'place', 'pleasant', 'polished', 'poorhouse.', 'prayers', 'preparation', 'prominent', 'punish', 'rather', 'really', 'rebel', 'recollections', 'red-room', 'repent', 'reply', 'reproach', 'resisted', 'resolved', 'rise', 'rose', 'rude', 's-maid', 'said—', 'same', 'sanity', 'saw', 'seat', 'seldom', 'send', 'shades', 'shocking', 'should', 'shrouded', 'shutting', 'similar', 'sing-song', 'slave', 'slept', 'snowy', 'soft', 'something', 'son', 'spread', 'spring', 'square', 'stateliest', 'still', 'stir.', 'stool', 'stout', 'strange', 'strengthened', 'subsiding', 'supported', 'sure.', 'surrounding', 'tabernacle', 'table', 'take', 'tantrums', 'tell', 'than', 'them.', 'they', 'this', 'thrust', 'tied', 'time', 'toilet-table', 'told', 'took', 'trifle', 'turned', 'turning', 'under', 'underhand', 'unless', 'up', 'upon', 'useful', 'vague', 've', 'visitors', 'voice', 'walls', 'wardrobe', 'way', 'went', 'where', 'whereof', 'which', 'wickedness.', 'windows', 'words', 'wouldn', 'yet']
+
+
+crescita del vocabolario e TTR all'incrementare del corpus giornalistico: 
+dimensioni del corpus:  500 	dimensioni del vocabolario:  275 	TTR:  0.55
+dimensioni del corpus:  1000 	dimensioni del vocabolario:  467 	TTR:  0.467
+dimensioni del corpus:  1500 	dimensioni del vocabolario:  629 	TTR:  0.41933333333333334
+dimensioni del corpus:  2000 	dimensioni del vocabolario:  804 	TTR:  0.402
+dimensioni del corpus:  2500 	dimensioni del vocabolario:  963 	TTR:  0.3852
+dimensioni del corpus:  3000 	dimensioni del vocabolario:  1110 	TTR:  0.37
+dimensioni del corpus:  3500 	dimensioni del vocabolario:  1267 	TTR:  0.362
+dimensioni del corpus:  4000 	dimensioni del vocabolario:  1420 	TTR:  0.355
+dimensioni del corpus:  4500 	dimensioni del vocabolario:  1552 	TTR:  0.3448888888888889
+dimensioni del corpus:  5000 	dimensioni del vocabolario:  1652 	TTR:  0.3304
+dimensioni del corpus:  5500 	dimensioni del vocabolario:  1777 	TTR:  0.3230909090909091
+dimensioni del corpus:  6000 	dimensioni del vocabolario:  1879 	TTR:  0.31316666666666665
+dimensioni del corpus:  6500 	dimensioni del vocabolario:  1988 	TTR:  0.3058461538461538
+dimensioni del corpus:  7000 	dimensioni del vocabolario:  2127 	TTR:  0.3038571428571429
+dimensioni del corpus:  7500 	dimensioni del vocabolario:  2243 	TTR:  0.29906666666666665
+dimensioni del corpus:  8000 	dimensioni del vocabolario:  2359 	TTR:  0.294875
+dimensioni del corpus:  8500 	dimensioni del vocabolario:  2475 	TTR:  0.2911764705882353
+dimensioni del corpus:  9000 	dimensioni del vocabolario:  2577 	TTR:  0.28633333333333333
+dimensioni del corpus:  9500 	dimensioni del vocabolario:  2671 	TTR:  0.2811578947368421
+dimensioni del corpus:  9570 	dimensioni del vocabolario:  2683 	TTR:  0.28035527690700107
+
+
+crescita del vocabolario e TTR all'incrementare del corpus letterario: 
+dimensioni del corpus:  500 	dimensioni del vocabolario:  236 	TTR:  0.472
+dimensioni del corpus:  1000 	dimensioni del vocabolario:  411 	TTR:  0.411
+dimensioni del corpus:  1500 	dimensioni del vocabolario:  583 	TTR:  0.38866666666666666
+dimensioni del corpus:  2000 	dimensioni del vocabolario:  754 	TTR:  0.377
+dimensioni del corpus:  2500 	dimensioni del vocabolario:  904 	TTR:  0.3616
+dimensioni del corpus:  3000 	dimensioni del vocabolario:  1039 	TTR:  0.3463333333333333
+dimensioni del corpus:  3500 	dimensioni del vocabolario:  1166 	TTR:  0.33314285714285713
+dimensioni del corpus:  4000 	dimensioni del vocabolario:  1255 	TTR:  0.31375
+dimensioni del corpus:  4500 	dimensioni del vocabolario:  1356 	TTR:  0.30133333333333334
+dimensioni del corpus:  5000 	dimensioni del vocabolario:  1463 	TTR:  0.2926
+dimensioni del corpus:  5500 	dimensioni del vocabolario:  1551 	TTR:  0.282
+dimensioni del corpus:  6000 	dimensioni del vocabolario:  1617 	TTR:  0.2695
+dimensioni del corpus:  6500 	dimensioni del vocabolario:  1698 	TTR:  0.2612307692307692
+dimensioni del corpus:  7000 	dimensioni del vocabolario:  1777 	TTR:  0.25385714285714284
+dimensioni del corpus:  7500 	dimensioni del vocabolario:  1839 	TTR:  0.2452
+dimensioni del corpus:  8000 	dimensioni del vocabolario:  1892 	TTR:  0.2365
+dimensioni del corpus:  8500 	dimensioni del vocabolario:  1950 	TTR:  0.22941176470588234
+dimensioni del corpus:  9000 	dimensioni del vocabolario:  2065 	TTR:  0.22944444444444445
+dimensioni del corpus:  9477 	dimensioni del vocabolario:  2164 	TTR:  0.22834230241637649
+
+
+
+La percentuale di parole piene per corpus giornalistico:  62.585274053163964 	Percentuale di parole vuote 37.414725946836036
+La percentuale di parole piene per corpus letterario:  55.63809059912324 	Percentuale di parole vuote 44.36190940087676
