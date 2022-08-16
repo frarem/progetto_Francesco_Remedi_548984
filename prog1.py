@@ -8,15 +8,12 @@ lista_POS_funzionali = ["CC", "DT", "CD", "IN", "TO", "RP", "MD", "PRP", "PRP$",
 
 def main(file1, file2):
     #apro i file e assegno il loro contenuto ad una variabile
-    fileInput1 = open(file1, "r", encoding="utf-8") #encoding necessario su windows
-    fileInput2 = open(file2, "r", encoding="utf-8") #prova vediamo sto secondo branch
-    raw1 = fileInput1.read()
-    raw2 = fileInput2.read()
+    with open(file1, "r", encoding="utf-8") as fileInput1:
+        raw1 = fileInput1.read()
+    with open(file2, "r", encoding="utf-8") as fileInput2:
+        raw2 = fileInput2.read()
     #carico il modello di tokenizzazione
     sentTokenizer = nltk.data.load('tokenizers/punkt/english.pickle')
-    #chiudo i file
-    fileInput1.close()
-    fileInput2.close()
     #estreggo le singole frasi
     frasi1 = sentTokenizer.tokenize(raw1)
     frasi2 = sentTokenizer.tokenize(raw2)
