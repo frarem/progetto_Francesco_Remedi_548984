@@ -4,54 +4,6 @@ import math
 import nltk
 from nltk.util import bigrams, trigrams
 
-def main(file1, file2):
-    #apro i file e assegno il loro contenuto ad una variabile
-    #apro i file e assegno il loro contenuto ad una variabile
-    with open(file1, "r", encoding="utf-8") as fileInput1:
-        raw1 = fileInput1.read()
-    with open(file2, "r", encoding="utf-8") as fileInput2:
-        raw2 = fileInput2.read()
-    #carico il modello di tokenizzazione
-    sentTokenizer = nltk.data.load('tokenizers/punkt/english.pickle')
-    #estreggo le singole frasi con tokenize
-    frasi1 = sentTokenizer.tokenize(raw1)
-    frasi2 = sentTokenizer.tokenize(raw2)
-    #estraggo vocabolario, corpus e lunghezza corpus dei due testi
-    vocab1, corpus1, lenCorpus1 = estraiTokens(frasi1)
-    vocab2, corpus2, lenCorpus2 = estraiTokens(frasi2)
-    #faccio POS tagging dei corpus
-    corpusPOS1 = nltk.pos_tag(corpus1)
-    corpusPOS2 = nltk.pos_tag(corpus2)
-    print("Dati estratti dal corpus GIORNALISTICO:\n")
-    EstraiFrequenze(corpusPOS1)
-    print("\n")
-    print("Dati estratti dal corpus LETTERARIO:\n")
-    EstraiFrequenze(corpusPOS2)
-    #creo bigrammi e trigrammi POS taggati
-    bigrammi1POS = list(bigrams(corpusPOS1))
-    bigrammi2POS = list(bigrams(corpusPOS2))
-    #estraggo i dati richiesti dal punto 2
-    print("\n")
-    print("PER IL CORPUS GIORNALISTICO:")
-    ventiBigrammi(bigrammi1POS, corpus1)
-    print("\n")
-    print("PER IL CORPUS LETTERARIO:")
-    ventiBigrammi(bigrammi2POS, corpus2)
-    print("\n")
-    #estraggo i dati richiesti dal punto 3
-    print("PER IL CORPUS GIORNALISTICO:")
-    EstraiPuntoTre(corpus1, frasi1)
-    print("PER IL CORPUS LETTERARIO:")
-    EstraiPuntoTre(corpus2, frasi2)
-    print("\n")
-    #estraggo i dati richiesti dal punto 4
-    print("PER IL CORPUS GIORNALISTICO:")
-    EstraiNomi(corpusPOS1)
-    print("\n")
-    print("PER IL CORPUS LETTERARIO:")
-    EstraiNomi(corpusPOS2)
-    return
-
 def estraiTokens(frasi):
     #variabili per lunghezza del corpus e per contenere il corpus
     lenCorpus = 0
@@ -369,4 +321,53 @@ def EstraiNomi (pos):
         print("nome proprio:\t", nome[0], "\t\tfrequenza: ", nome[1])
     return
 
-main (sys.argv[1], sys.argv[2])
+def main(file1, file2):
+    #apro i file e assegno il loro contenuto ad una variabile
+    #apro i file e assegno il loro contenuto ad una variabile
+    with open(file1, "r", encoding="utf-8") as fileInput1:
+        raw1 = fileInput1.read()
+    with open(file2, "r", encoding="utf-8") as fileInput2:
+        raw2 = fileInput2.read()
+    #carico il modello di tokenizzazione
+    sentTokenizer = nltk.data.load('tokenizers/punkt/english.pickle')
+    #estreggo le singole frasi con tokenize
+    frasi1 = sentTokenizer.tokenize(raw1)
+    frasi2 = sentTokenizer.tokenize(raw2)
+    #estraggo vocabolario, corpus e lunghezza corpus dei due testi
+    vocab1, corpus1, lenCorpus1 = estraiTokens(frasi1)
+    vocab2, corpus2, lenCorpus2 = estraiTokens(frasi2)
+    #faccio POS tagging dei corpus
+    corpusPOS1 = nltk.pos_tag(corpus1)
+    corpusPOS2 = nltk.pos_tag(corpus2)
+    print("Dati estratti dal corpus GIORNALISTICO:\n")
+    EstraiFrequenze(corpusPOS1)
+    print("\n")
+    print("Dati estratti dal corpus LETTERARIO:\n")
+    EstraiFrequenze(corpusPOS2)
+    #creo bigrammi e trigrammi POS taggati
+    bigrammi1POS = list(bigrams(corpusPOS1))
+    bigrammi2POS = list(bigrams(corpusPOS2))
+    #estraggo i dati richiesti dal punto 2
+    print("\n")
+    print("PER IL CORPUS GIORNALISTICO:")
+    ventiBigrammi(bigrammi1POS, corpus1)
+    print("\n")
+    print("PER IL CORPUS LETTERARIO:")
+    ventiBigrammi(bigrammi2POS, corpus2)
+    print("\n")
+    #estraggo i dati richiesti dal punto 3
+    print("PER IL CORPUS GIORNALISTICO:")
+    EstraiPuntoTre(corpus1, frasi1)
+    print("PER IL CORPUS LETTERARIO:")
+    EstraiPuntoTre(corpus2, frasi2)
+    print("\n")
+    #estraggo i dati richiesti dal punto 4
+    print("PER IL CORPUS GIORNALISTICO:")
+    EstraiNomi(corpusPOS1)
+    print("\n")
+    print("PER IL CORPUS LETTERARIO:")
+    EstraiNomi(corpusPOS2)
+    return
+
+if __name__ == "__main__":
+    main(sys.argv[1], sys.argv[2])

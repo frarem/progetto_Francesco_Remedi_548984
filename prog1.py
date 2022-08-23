@@ -6,66 +6,6 @@ import nltk
 lista_POS_piene = ["NN", "NNS", "NNP", "JJ", "JJR", "JJS", "RB", "VB", "VBD", "VBG", "VBN", "VBP", "VBZ"]
 lista_POS_funzionali = ["CC", "DT", "CD", "IN", "TO", "RP", "MD", "PRP", "PRP$", "WDT", "WP"]
 
-def main(file1, file2):
-    #apro i file e assegno il loro contenuto ad una variabile
-    with open(file1, "r", encoding="utf-8") as fileInput1:
-        raw1 = fileInput1.read()
-    with open(file2, "r", encoding="utf-8") as fileInput2:
-        raw2 = fileInput2.read()
-    #carico il modello di tokenizzazione
-    sentTokenizer = nltk.data.load('tokenizers/punkt/english.pickle')
-    #estreggo le singole frasi
-    frasi1 = sentTokenizer.tokenize(raw1)
-    frasi2 = sentTokenizer.tokenize(raw2)
-    #estraggo vocabolario, corpus e lunghezza corpus dei due testi
-    vocab1, corpus1, lenCorpus1 = estraiTokens(frasi1)
-    vocab2, corpus2, lenCorpus2 = estraiTokens(frasi2)
-    #calcolo lunghezza media delle frasi in termini di token e dei token in termini di caratteri (punteggiatura esclusa) 
-    mediaFrasi1, mediaCaratteri1 = calcoloMedia(frasi1)
-    mediaFrasi2, mediaCaratteri2 = calcoloMedia(frasi2)
-    print("lunghezza del corpus giornalistico: ", lenCorpus1, "numero di frasi: ", len(frasi1))
-    print("lunghezza del corpus letterario: ", lenCorpus2, "numero di frasi: ", len(frasi2))
-    print()
-    print("la media delle frasi in termini di token del corpus giornalistico è: ", mediaFrasi1, "e la rispettiva media in caratteri dei token è: ", mediaCaratteri1)
-    print("la media delle frasi in termini di token del corpus letterario è: ", mediaFrasi2, "e la rispettiva media in caratteri dei token è: ", mediaCaratteri2)
-
-    #seleziono i primi 1000 token per calcolarne gli hapax
-    corpus1mille = corpus1[0:999]
-    #calcolo gli hapax
-    HapaxMille1 = CalcoloHapax(sorted(list(set(corpus1mille))), corpus1mille)
-    print("\nHapax estratti dai primi 1000 token del testo giornalistico: ")
-    print(HapaxMille1)
-    corpus2mille = corpus2[0:999]
-    HapaxMille2 = CalcoloHapax(sorted(list(set(corpus2mille))), corpus2mille)
-    print("\nHapax estratti dai primi 1000 token del testo letterario: ")
-    print(HapaxMille2)
-    print("\n")
-    print("crescita del vocabolario e TTR all'incrementare del corpus giornalistico: ")
-    #ciclo che scorre di 500 unità pr volta il corpus giornalistico
-    for index in range(0, lenCorpus1, 500):
-        tokens500 = corpus1[0:index+500]
-        #creo vocabolario di tokens500
-        vocabolario500 = list(set(tokens500))
-        #calcolo type-token ratio
-        ttr500 = len(vocabolario500) / len(tokens500)
-        print("dimensioni del corpus: ", len(tokens500), "\tdimensioni del vocabolario: ", len(vocabolario500), "\tTTR: ", ttr500)
-    print("\n")
-    print("crescita del vocabolario e TTR all'incrementare del corpus letterario: ")
-    #ciclo che scorre di 500 unità pr volta il corpus letterario
-    for index in range(0, lenCorpus2, 500):
-        tokens500 = corpus2[0:index+500]
-        #creo vocabolario di token500
-        vocabolario500 = list(set(tokens500))
-        ttr500 = len(vocabolario500) / len(tokens500)
-        print("dimensioni del corpus: ", len(tokens500), "\tdimensioni del vocabolario: ", len(vocabolario500), "\tTTR: ", ttr500)
-    #calcolo percentuale parole piene e vuote
-    print("\n\n")
-    percentualePiene1, PercentualeVuote1 = percentualePOS(corpus1)
-    percentualePiene2, PercentualeVuote2 = percentualePOS(corpus2)
-    print("La percentuale di parole piene per corpus giornalistico: ", percentualePiene1, "\tPercentuale di parole vuote", PercentualeVuote1)
-    print("La percentuale di parole piene per corpus letterario: ", percentualePiene2, "\tPercentuale di parole vuote", PercentualeVuote2)
-    return
-
 def estraiTokens (frasi):
     #variabili per lunghezza del corpus e per contenere il corpus
     lenCorpus = 0
@@ -135,4 +75,64 @@ def percentualePOS(corpus):
     percentualeFunzionali = (contatore_funzionali/lunghezzaTOT)*100
     return percentualePiene, percentualeFunzionali
 
-main (sys.argv[1], sys.argv[2])
+def main(file1, file2):
+    #apro i file e assegno il loro contenuto ad una variabile
+    with open(file1, "r", encoding="utf-8") as fileInput1:
+        raw1 = fileInput1.read()
+    with open(file2, "r", encoding="utf-8") as fileInput2:
+        raw2 = fileInput2.read()
+    #carico il modello di tokenizzazione
+    sentTokenizer = nltk.data.load('tokenizers/punkt/english.pickle')
+    #estreggo le singole frasi
+    frasi1 = sentTokenizer.tokenize(raw1)
+    frasi2 = sentTokenizer.tokenize(raw2)
+    #estraggo vocabolario, corpus e lunghezza corpus dei due testi
+    vocab1, corpus1, lenCorpus1 = estraiTokens(frasi1)
+    vocab2, corpus2, lenCorpus2 = estraiTokens(frasi2)
+    #calcolo lunghezza media delle frasi in termini di token e dei token in termini di caratteri (punteggiatura esclusa) 
+    mediaFrasi1, mediaCaratteri1 = calcoloMedia(frasi1)
+    mediaFrasi2, mediaCaratteri2 = calcoloMedia(frasi2)
+    print("lunghezza del corpus giornalistico: ", lenCorpus1, "numero di frasi: ", len(frasi1))
+    print("lunghezza del corpus letterario: ", lenCorpus2, "numero di frasi: ", len(frasi2))
+    print()
+    print("la media delle frasi in termini di token del corpus giornalistico è: ", mediaFrasi1, "e la rispettiva media in caratteri dei token è: ", mediaCaratteri1)
+    print("la media delle frasi in termini di token del corpus letterario è: ", mediaFrasi2, "e la rispettiva media in caratteri dei token è: ", mediaCaratteri2)
+    #seleziono i primi 1000 token per calcolarne gli hapax
+    corpus1mille = corpus1[0:999]
+    #calcolo gli hapax
+    HapaxMille1 = CalcoloHapax(sorted(list(set(corpus1mille))), corpus1mille)
+    print("\nHapax estratti dai primi 1000 token del testo giornalistico: ")
+    print(HapaxMille1)
+    corpus2mille = corpus2[0:999]
+    HapaxMille2 = CalcoloHapax(sorted(list(set(corpus2mille))), corpus2mille)
+    print("\nHapax estratti dai primi 1000 token del testo letterario: ")
+    print(HapaxMille2)
+    print("\n")
+    print("crescita del vocabolario e TTR all'incrementare del corpus giornalistico: ")
+    #ciclo che scorre di 500 unità pr volta il corpus giornalistico
+    for index in range(0, lenCorpus1, 500):
+        tokens500 = corpus1[0:index+500]
+        #creo vocabolario di tokens500
+        vocabolario500 = list(set(tokens500))
+        #calcolo type-token ratio
+        ttr500 = len(vocabolario500) / len(tokens500)
+        print("dimensioni del corpus: ", len(tokens500), "\tdimensioni del vocabolario: ", len(vocabolario500), "\tTTR: ", ttr500)
+    print("\n")
+    print("crescita del vocabolario e TTR all'incrementare del corpus letterario: ")
+    #ciclo che scorre di 500 unità pr volta il corpus letterario
+    for index in range(0, lenCorpus2, 500):
+        tokens500 = corpus2[0:index+500]
+        #creo vocabolario di token500
+        vocabolario500 = list(set(tokens500))
+        ttr500 = len(vocabolario500) / len(tokens500)
+        print("dimensioni del corpus: ", len(tokens500), "\tdimensioni del vocabolario: ", len(vocabolario500), "\tTTR: ", ttr500)
+    #calcolo percentuale parole piene e vuote
+    print("\n\n")
+    percentualePiene1, PercentualeVuote1 = percentualePOS(corpus1)
+    percentualePiene2, PercentualeVuote2 = percentualePOS(corpus2)
+    print("La percentuale di parole piene per corpus giornalistico: ", percentualePiene1, "\tPercentuale di parole vuote", PercentualeVuote1)
+    print("La percentuale di parole piene per corpus letterario: ", percentualePiene2, "\tPercentuale di parole vuote", PercentualeVuote2)
+    return
+
+if __name__ == "__main__":
+ main (sys.argv[1], sys.argv[2])
