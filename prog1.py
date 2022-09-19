@@ -75,11 +75,11 @@ def percentualePOS(corpus):
     percentualeFunzionali = (contatore_funzionali/lunghezzaTOT)*100
     return percentualePiene, percentualeFunzionali
 
-def main(file1, file2):
+def main():
     #apro i file e assegno il loro contenuto ad una variabile
-    with open(file1, "r", encoding="utf-8") as fileInput1:
+    with open("testo1.txt", "r", encoding="utf-8") as fileInput1:
         raw1 = fileInput1.read()
-    with open(file2, "r", encoding="utf-8") as fileInput2:
+    with open("testo2.txt", "r", encoding="utf-8") as fileInput2:
         raw2 = fileInput2.read()
     #carico il modello di tokenizzazione
     sentTokenizer = nltk.data.load('tokenizers/punkt/english.pickle')
@@ -135,4 +135,4 @@ def main(file1, file2):
     return
 
 if __name__ == "__main__":
-    main (sys.argv[1], sys.argv[2])
+    main ()
